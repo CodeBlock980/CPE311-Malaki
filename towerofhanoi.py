@@ -29,7 +29,7 @@ class Stack(object):
   def getLength(self): #Return the length of the stack
     return len(self.stack)
 
-
+#Recursive algorithm
 def moveTo(n, source, middle, dest):
   if n == 1: #Base Case, if there is only one move, then move it to the peg C
     disk = source.pop()
@@ -44,10 +44,6 @@ def moveTo(n, source, middle, dest):
 
 
 
-
-
-
-
 pegA = Stack()
 pegA.push(3)
 pegA.push(2)
@@ -55,6 +51,18 @@ pegA.push(1)
 pegB = Stack()
 pegC = Stack()
 moveTo(3, pegA, pegB, pegC)
+
+'''
+Output: 
+Move Disk 1 from [3, 2] to [1]
+Move Disk 2 from [3] to [2]
+Move Disk 1 from [] to [2, 1]
+Move Disk 3 from [] to [3]
+Move Disk 1 from [2] to [1]
+Move Disk 2 from [] to [3, 2]
+Move Disk 1 from [] to [3, 2, 1]
+
+'''
 
 
 
