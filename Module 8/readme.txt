@@ -1,1 +1,1 @@
-To summarize this topic, I have learned some of the functions that are exclusive to pandas, numpy, and matplotlib while also properly demonstrating the said procedures as well as document some of my take aways via inline comments. 
+To summarize this topic, I have learned some of the functions that are exclusive to pandas, numpy, and matplotlib while also properly demonstrating the said procedures as well as document some of my take aways via inline and markdown comments. 
